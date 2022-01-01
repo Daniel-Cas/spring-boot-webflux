@@ -22,6 +22,7 @@ public class Producto {
     public Producto(String nombre, Double precio) {
         this.nombre = nombre;
         this.precio = precio;
+        this.createAt = new Date();
     }
 
     public String getId() {
